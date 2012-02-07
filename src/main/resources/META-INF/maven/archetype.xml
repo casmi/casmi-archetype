@@ -1,0 +1,15 @@
+<archetype>
+  <id>casmi-archetype</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/NO_RESOURCE</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+  <testResources>
+    <resource>src/test/resources/NO_RESOURCE</resource>
+  </testResources>
+</archetype>
