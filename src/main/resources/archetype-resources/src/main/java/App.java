@@ -25,11 +25,6 @@ public class App extends Applet {
     public void mouseEvent(MouseEvent e, MouseButton b) {
         // Implement here.
     }
-    
-    @Override
-    public void mouseWheelEvent() {
-        // Implement here.
-    }
 
     @Override
     public void keyEvent(KeyEvent e) {
@@ -39,4 +34,5 @@ public class App extends Applet {
     public static void main(String[] args) {
         AppletRunner.run("${package}.App", "title");
     }
+    
 }
