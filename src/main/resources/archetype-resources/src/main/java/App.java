@@ -21,6 +21,13 @@ public class App extends Applet {
         // Implement here.
     }
 
+    // Comment out if you want to exec terminating processes.
+    // This is called when the application is quitted.
+//    @Override
+//    public void exit() {
+//        // Implement here.
+//    }
+
     @Override
     public void mouseEvent(MouseEvent e, MouseButton b) {
         // Implement here.

@@ -5,29 +5,16 @@ This is a basic maven archetype for a casmi project.
 
 # Usage
 
-
-## install archetype on local
-
-    $ cd [casmi-archetype]
-    $ mvn install
-
-
-## upload casmi.github.com
-
-	$ cd [casmi.github.com]/maven-repo/casmi/casmi-archetype/0.1.0-SNAPSHOT
-	$ cp ~/.m2/repository/casmi/casmi-archetype/0.1.0-SNAPSHOT/casmi-archetype-0.1.0-SNAPSHOT.* .
-	
-	$ cd [casmi.github.com]/maven-repo
-	$ vi archetype-catalog.xml
-
-
-## use on eclipse (m2eclipse)
+## On eclipse (m2eclipse)
 
 * [Preferences...] -> Maven -> Archetypes -> Add Remote Catalog...
 * Input "Catalog File" "http://casmi.github.com/maven-repo/archetype-catalog.xml
 * [File] -> [New] -> [Project...] -> [Maven Project]
 * [Select an Archetype] -> select the catalog -> check "Include snapshot archetypes"
 
+## On command line
+
+    $ mvn archetype:generate -DarchetypeCatalog=http://casmi.github.com/maven-repo/archetype-catalog.xml
 
 # License
 
