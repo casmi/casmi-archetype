@@ -41,5 +41,4 @@ public class App extends Applet {
     public static void main(String[] args) {
         AppletRunner.run("${package}.App", "title");
     }
-    
 }
