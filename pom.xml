@@ -1,23 +1,71 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>casmi</groupId>
-    <artifactId>casmi-archetype</artifactId>
+    <groupId>casmi.archetypes</groupId>
+    <artifactId>casmi-quickstart</artifactId>
     <version>0.3.2</version>
-    
-    <name>casmi-archetype</name>
-    <url>http://casmi.github.com</url>
-    <description>maven archetype for casmi .</description>
-    
+    <packaging>jar</packaging>
+
+    <name>casmi-quickstart</name>
+    <url>http://casmi.github.com/</url>
+    <description>Quickstart archetype for casmi project</description>
+
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/casmi/casmi-archetype</url>
+        <connection>scm:git:git://github.com/casmi/casmi-archetype.git</connection>
+        <developerConnection>scm:git:git://github.com/casmi/casmi-archetype.git</developerConnection>
+    </scm>
+
     <organization>
         <name>Xcoo, Inc.</name>
         <url>http://www.xcoo.jp</url>
     </organization>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <developers>
+        <developer>
+            <id>kuni</id>
+            <name>Kunihiro Nishimura</name>
+            <email>kuni@xcoo.jp</email>
+            <organization>Xcoo, Inc.</organization>
+            <organizationUrl>http://www.xcoo.jp/</organizationUrl>
+        </developer>
+        <developer>
+            <id>takashi</id>
+            <name>Takashi Aoki</name>
+            <email>takashi@xcoo.jp</email>
+            <organization>Xcoo, Inc.</organization>
+            <organizationUrl>http://www.xcoo.jp/</organizationUrl>
+        </developer>
+        <developer>
+            <id>take</id>
+            <name>Toshiki Takeuchi</name>
+            <email>take@xcoo.jp</email>
+            <organization>Xcoo, Inc.</organization>
+            <organizationUrl>http://www.xcoo.jp/</organizationUrl>
+        </developer>
+        <developer>
+            <id>yuki</id>
+            <name>Yuki Ban</name>
+            <email>yuki@xcoo.jp</email>
+            <organization>Xcoo, Inc.</organization>
+            <organizationUrl>http://www.xcoo.jp/</organizationUrl>
+        </developer>
+        <developer>
+            <id>shigeodayo</id>
+            <name>Shigeo Yoshida</name>
+            <email>shigeodayo@xcoo.jp</email>
+            <organization>Xcoo, Inc.</organization>
+            <organizationUrl>http://www.xcoo.jp/</organizationUrl>
+        </developer>
+    </developers>
 
     <build>
         <plugins>
@@ -32,4 +80,8 @@
             </plugin>
         </plugins>
     </build>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 </project>
