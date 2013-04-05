@@ -6,17 +6,9 @@
     <version>${version}</version>
     <packaging>jar</packaging>
 
-    <repositories>
-        <repository>
-            <id>casmi</id>
-            <name>casmi</name>
-            <url>http://casmi.github.com/maven-repo/</url>
-        </repository>
-    </repositories>
-
     <dependencies>
         <dependency>
-            <groupId>casmi</groupId>
+            <groupId>com.github.casmi</groupId>
             <artifactId>casmi</artifactId>
             <version>0.3.2</version>
         </dependency>
